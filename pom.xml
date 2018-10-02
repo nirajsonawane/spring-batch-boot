@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.springframework</groupId>
-    <artifactId>batch-processing</artifactId>
+    <artifactId>fasta-batch-processing</artifactId>
     <version>0.1.0</version>
 
     <parent>
@@ -22,6 +22,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-batch</artifactId>
         </dependency>
+        	<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>			
+			<scope>provided</scope>
+		</dependency>
         <dependency>
             <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>

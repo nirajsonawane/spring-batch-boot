@@ -1,7 +1,6 @@
 >12345
 Niraj1
 Niraj2
-Niraj3
 >12346
 Niraj1
 Niraj2
